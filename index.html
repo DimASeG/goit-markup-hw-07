@@ -12,38 +12,41 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/modern-normalize.css" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <!-- <link rel="stylesheet" href="./css/style.css" /> -->
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!--=================  Header with navigation end contacts ===-->
-    <header class="page-header">
-      <div class="container container-nav">
-        <nav class="main-nav">
-          <a href="/" class="logo">Web<span class="logo-continuation-header">Studio</span></a>
-          <ul class="site-nav">
-            <li class="item">
-              <a href="./index.html" class="site-nav-link current">Студия</a>
+    <header class="header">
+      <div class="container header__container">
+        <nav class="nav">
+          <a href="/" class="logo link"
+            >Web<span class="logo__part logo__part--black">Studio</span></a
+          >
+          <ul class="list nav__list">
+            <li class="nav__item">
+              <a href="./index.html" class="link nav__link current">Студия</a>
             </li>
-            <li class="item">
-              <a href="./portfolio.html" class="site-nav-link">Портфолио</a>
+            <li class="nav__item">
+              <a href="./portfolio.html" class="link nav__link">Портфолио</a>
             </li>
-            <li class="item">
-              <a href="" class="site-nav-link">Контакты</a>
+            <li class="nav__item">
+              <a href="" class="link nav__link">Контакты</a>
             </li>
           </ul>
         </nav>
-        <ul class="header-contact-list">
-          <li class="item conection-email">
-            <a href="mailto:info@devstudio.com" class="conection header-contact-link">
-              <svg class="header-contact-list-icon" width="20" height="20">
+        <ul class="header-contacts">
+          <li class="item header-contacts__item conection-email">
+            <a href="mailto:info@devstudio.com" class="conection header-contacts__link">
+              <svg class="header-contacts__link--icon" width="20" height="20">
                 <use href="./imeges/icons.svg#icon-envelope_email"></use>
               </svg>
               info@devstudio.com
             </a>
           </li>
-          <li class="item conection-telephone">
-            <a href="tel:+380961111111" class="conection header-contact-link">
-              <svg class="header-contact-list-icon" width="20" height="20">
+          <li class="item header-contacts__item conection-telephone">
+            <a href="tel:+380961111111" class="conection header-contacts__link">
+              <svg class="header-contacts__link--icon" width="20" height="20">
                 <use href="./imeges/icons.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11
