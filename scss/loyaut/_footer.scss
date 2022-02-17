@@ -10,7 +10,7 @@
   align-items: baseline;
 }
 
-.footer-container-address {
+.footer-container__address {
   flex-grow: 1;
 }
 
@@ -45,11 +45,11 @@
   color: var(--alternative-text-decoration-color);
 }
 
-.footer-container-socials {
+.footer-container__socials {
   margin-left: 70px;
 }
 
-.footer-container-title {
+.footer-container__subscribe--title {
   text-transform: uppercase;
   margin-bottom: 20px;
   font-family: Roboto;
@@ -98,17 +98,17 @@
   margin-left: 10px;
 }
 
-.footer-container-subscribe {
+.footer-container__subscribe {
   margin-left: 93px;
 }
 
-.button-input {
+.footer-container__subscribe--button {
   display: flex;
   align-items: end;
   margin-top: 20px;
 }
 
-.subscribe-form input {
+.footer-container__subscribe--form input {
   display: flex;
   flex-direction: column;
   width: 358px;

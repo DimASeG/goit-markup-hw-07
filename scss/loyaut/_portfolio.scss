@@ -1,9 +1,9 @@
-.windows-portfolio-section {
+.windows-portfolio__list {
   display: flex;
   flex-wrap: wrap;
 }
 
-.windows-portfolio-link {
+.windows-portfolio__link {
   display: block;
   text-decoration: none;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -19,7 +19,7 @@
   }
 }
 
-.windows-portfolio-list {
+.windows-portfolio__item {
   margin: 0 30px 30px 0;
   position: relative;
   &:nth-child(3n) {
@@ -46,7 +46,7 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-overlay-text {
+.portfolio-overlay__text {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -56,23 +56,23 @@
   color: var(--alternative-text-decoration-color);
 }
 
-.portfolio-overflow-hidden {
+.windows-portfolio__overflow-hidden {
   overflow: hidden;
   position: relative;
 }
 
-.portfolio-section-img {
+.windows-portfolio__image {
   display: block;
 }
 
-.portfolio-presection {
+.windows-portfolio__presection {
   position: relative;
   padding: 20px 24px;
   border: 1px solid var(--border-color);
   border-top: none;
 }
 
-.main-portfolio-heading-h2 {
+.windows-portfolio__presection--heading {
   margin: 0 0 4px 0;
   color: var(--main-link-color);
   font-weight: 700;
@@ -81,7 +81,7 @@
   letter-spacing: 0.06em;
 }
 
-.main-portfolio-prink {
+.windows-portfolio__presection--prink {
   color: var(--primery-text-decoration-color);
   font-size: 16px;
   line-height: 1.87;
