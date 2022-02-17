@@ -1,16 +1,16 @@
 .logo {
-  color: var(--accent-link-color);
   font-family: Raleway, sans-serif;
   font-size: 26px;
   line-height: 1.2;
   text-decoration: none;
   letter-spacing: 0.03em;
+  color: var(--accent-link-color);
 }
 
-.logo-continuation-footer {
+.logo__part--wite {
   color: var(--alternative-text-decoration-color);
 }
 
-.logo-continuation-header {
+.logo__part--black {
   color: var(--text-decoration-color);
 }
