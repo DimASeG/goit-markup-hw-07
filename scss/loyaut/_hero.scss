@@ -1,5 +1,5 @@
 .hero {
-  background-image: radial-gradient (var(--hero--backgraund--color), var(--hero--backgraund--color)),
+  background-image: linear-gradient(var(--hero--backgraund--color), var(--hero--backgraund--color)),
     url(../imeges/hiro_img.jpg);
   background: var(--secondary--backgraund--color);
 

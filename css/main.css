@@ -508,7 +508,7 @@ textarea {
 }
 
 .hero {
-  background-image: radial-gradient var(--hero--backgraund--color), var(--hero--backgraund--color), url(../imeges/hiro_img.jpg);
+  background-image: linear-gradient(var(--hero--backgraund--color), var(--hero--backgraund--color)), url(../imeges/hiro_img.jpg);
   background: var(--secondary--backgraund--color);
   background-repeat: no-repeat;
   background-position: center;
