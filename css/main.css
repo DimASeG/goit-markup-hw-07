@@ -553,7 +553,7 @@ textarea {
   background-color: var(--accent-link-color);
 }
 
-.header-contact-list {
+.header-contacts {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -562,10 +562,10 @@ textarea {
           align-items: center;
   margin-left: auto;
 }
-.header-contact-list .item + .item {
+.header-contacts .item + .item {
   margin-left: 50px;
 }
-.header-contact-list .conection {
+.header-contacts .conection {
   color: var(--header-contact-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -573,7 +573,7 @@ textarea {
   letter-spacing: 0.02em;
 }
 
-.header-contact-link {
+.header-contacts__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -584,15 +584,15 @@ textarea {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-contact-list .conection:hover,
-.header-contact-list .conection:focus,
+.header-contacts .conection:hover,
+.header-contacts .conection:focus,
 .nav__link.current,
 .nav__link:hover,
 .nav__link:focus {
   color: var(--accent-link-color);
 }
 
-.header-contact-list-icon {
+.header-contacts__link--icon {
   fill: currentColor;
   margin-right: 10px;
 }
