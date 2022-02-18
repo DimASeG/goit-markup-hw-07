@@ -11,17 +11,17 @@
   padding-right: 15px;
 }
 
-.team-section__title {
+img {
+  display: block;
+  min-width: 100%;
+  height: auto;
+}
+
+.section-title {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-}
-
-img {
-  display: block;
-  min-width: 100%;
-  height: auto;
 }

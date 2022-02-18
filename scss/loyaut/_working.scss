@@ -11,18 +11,18 @@
   text-align: center;
 }
 
-.working-section-list {
+.working-section__list {
   display: flex;
   & .item + .item {
     margin-left: 30px;
   }
 }
 
-.image-item {
+.working-section__image-box {
   position: relative;
 }
 
-.apper-image-item {
+.working-section__image-box__item {
   position: absolute;
   width: 100%;
   height: 70px;
@@ -33,7 +33,7 @@
   justify-content: center;
 }
 
-.apper-image-title {
+.working-section__image-box__title {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
