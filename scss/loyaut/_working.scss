@@ -2,18 +2,9 @@
   padding-top: 0;
 }
 
-.workiтg-team-section__title {
-  margin-bottom: 50px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-  text-align: center;
-}
-
 .working-section__list {
   display: flex;
-  & .item + .item {
+  & .working-section__item + .working-section__item {
     margin-left: 30px;
   }
 }
