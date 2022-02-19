@@ -50,33 +50,37 @@
   display: flex;
   align-items: center;
   margin-left: auto;
-  & .item + .item {
+}
+
+.header-contacts__item {
+  & + & {
     margin-left: 50px;
-  }
-  & .conection {
-    color: var(--header-contact-text-color);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
   }
 }
 
 .header-contacts__link {
+  color: var(--header-contact-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   display: flex;
   align-items: center;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-link-color);
+  }
 }
 
-.header-contacts .conection:hover,
-.header-contacts .conection:focus,
-.nav__link.current,
+.nav__link--current,
 .nav__link:hover,
 .nav__link:focus {
   color: var(--accent-link-color);
 }
 
-.header-contacts__link--icon {
+.header-contacts__icon {
   fill: currentColor;
   margin-right: 10px;
 }
