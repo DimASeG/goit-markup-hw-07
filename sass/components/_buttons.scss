@@ -41,16 +41,6 @@
 
 /*---------------------- FILTER BUTTON---------------------- */
 
-.filter {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
-}
-
-.filter .item + .item {
-  margin-left: 8px;
-}
-
 .filter__button {
   cursor: pointer;
   font-weight: 500;
