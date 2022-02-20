@@ -1,19 +1,19 @@
-.working-section {
+.section--nopaddingtop {
   padding-top: 0;
 }
 
-.working-section__list {
+.works {
   display: flex;
-  & .working-section__item + .working-section__item {
+  & .works__item + .works__item {
     margin-left: 30px;
   }
 }
 
-.working-section__image-box {
+.works__image-box {
   position: relative;
 }
 
-.working-section__image-box__item {
+.works__overlay {
   position: absolute;
   width: 100%;
   height: 70px;
@@ -24,7 +24,7 @@
   justify-content: center;
 }
 
-.working-section__image-box__title {
+.works__overlay-text {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
